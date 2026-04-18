@@ -1,4 +1,4 @@
 def call(string url , string branch){
   echo "this is for cloning"
-  git url: "${url}",  branch: "&{branch}"
+  git url: "${git url}",  branch: "${branch}"
 }
